@@ -1,5 +1,5 @@
 {
-  "name": "@yurimaciel-ui/tokens",
+  "name": "@yurimaciel-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -13,10 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^5.3.3"
-  },
   "devDependencies": {
-    "tsup": "^8.0.1"
+    "@yurimaciel-ui/tokens": "*",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
   }
 }

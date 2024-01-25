@@ -16,6 +16,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@yurimaciel-ui/react": "*",
+    "@yurimaciel-ui/tokens": "*",
+    "@yurimaciel-ui/eslint-config": "*",
     "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-interactions": "^7.6.10",
     "@storybook/addon-links": "^7.6.10",

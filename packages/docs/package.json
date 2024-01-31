@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "deploy": "storybook-to-ghpage"
+    "deploy": "storybook-to-ghpages"
   },
   "dependencies": {
     "phosphor-react": "^1.4.1",

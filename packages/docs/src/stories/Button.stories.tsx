@@ -8,6 +8,11 @@ export default {
   args: {
     children: 'Submit',
   },
+  argTypes: {
+    onClick: {
+      action: 'click',
+    },
+  },
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}
@@ -33,7 +38,7 @@ export const WithIcon: StoryObj<ButtonProps> = {
   args: {
     children: (
       <>
-        Próximo passo
+        Next step
         <ArrowRight weight="bold" />
       </>
     ),

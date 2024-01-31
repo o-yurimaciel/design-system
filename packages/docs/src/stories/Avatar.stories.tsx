@@ -7,6 +7,11 @@ export default {
   args: {
     src: 'https://github.com/o-yurimaciel.png',
   },
+  argTypes: {
+    src: {
+      type: 'string',
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
